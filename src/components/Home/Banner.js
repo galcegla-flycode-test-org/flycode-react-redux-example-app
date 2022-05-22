@@ -10,7 +10,7 @@ const Banner = ({ appName, token }) => {
         <h1 className="logo-font">
           {appName.toLowerCase()}
         </h1>
-        <p>You're in control of your product</p>
+        <p>Your in control of you're product</p>
       </div>
     </div>
   );
