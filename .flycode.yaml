@@ -3,9 +3,6 @@ environments:
   - name: master
     branch: master
     mode: pull-request
-  - name: another
-    branch: another
-    mode: pull-request
 apps:
   - name: flycode-react-redux-example-app
     path: ""
