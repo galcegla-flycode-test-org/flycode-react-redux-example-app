@@ -24,7 +24,7 @@ const CommentContainer = props => {
         <p>
           <Link to="/login">Log on</Link>
           Orp;or&nbsp;
-          <Link to="/register">Sign up</Link>
+          <Link to="/register">Sign new</Link>
           to add comments on this article.11icle.
         </p>
 
