@@ -6,7 +6,6 @@ environments:
 apps:
   - name: flycode-react-redux-example-app
     path: ""
-    image-resources: true
     text-resources:
       - path: "*.tsx"
         format: react-hardcoded
