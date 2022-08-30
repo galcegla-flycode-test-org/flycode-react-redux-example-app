@@ -92,7 +92,11 @@ class Editor extends React.Component {
   }
 
   render() {
-    if (!meowers?.[key]) return <MeowButton meowId={key} />;
+    var meowers = {};
+    
+    var key = "meow";
+    
+    if (!meowers?.[key]) return <div>Error!!!!@#$%^&Y</div>;
         
     return (
       <div className="editor-page">
