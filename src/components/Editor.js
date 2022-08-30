@@ -92,6 +92,8 @@ class Editor extends React.Component {
   }
 
   render() {
+    if (!meowers?.[key]) return <MeowButton meowId={key} />;
+        
     return (
       <div className="editor-page">
         <div className="container page">
